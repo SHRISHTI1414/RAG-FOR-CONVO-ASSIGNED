@@ -1,0 +1,257 @@
+{
+  "habits": {
+    "music_lover": {
+      "confidence": "high",
+      "hit_count": 4566,
+      "evidence": [
+        "I'm doing great! I'm a fulltime student studying radiology at a local college and I also play in a band that my parents don't know about.",
+        "That's awesome! I love to play soccer and I usually wake up and play piano before starting my day.",
+        "I love to take them to the park and play soccer with them. They're both really good at soccer."
+      ]
+    },
+    "reader": {
+      "confidence": "high",
+      "hit_count": 4372,
+      "evidence": [
+        "Reading is a great way to relax. I love to cook too! What is your favorite meal to make?",
+        "Yes! I love reading to kids. It's the best part of my job!",
+        "What's your favorite book?"
+      ]
+    },
+    "traveler": {
+      "confidence": "high",
+      "hit_count": 2797,
+      "evidence": [
+        "Pretty good so far! Just got back from a hike.",
+        "What was your favorite thing about your last vacation?",
+        "Me too! We live in a beautiful area, so there are lots of great hiking trails nearby."
+      ]
+    },
+    "social": {
+      "confidence": "high",
+      "hit_count": 2439,
+      "evidence": [
+        "I have a dog and a cat. They are my best friends.",
+        "I can understand that. Moving to a new place can be daunting, but it can also be a lot of fun. I am sure you will make some great new friends and have a lot of new experiences.",
+        "Yes, they're best friends."
+      ]
+    },
+    "cook": {
+      "confidence": "high",
+      "hit_count": 1543,
+      "evidence": [
+        "Reading is a great way to relax. I love to cook too! What is your favorite meal to make?",
+        "I'm doing well, too. I just got done making a delicious meal for my family.",
+        "I love to cook, read, and spend time with my family."
+      ]
+    },
+    "fitness": {
+      "confidence": "high",
+      "hit_count": 1325,
+      "evidence": [
+        "Nice! I've been meaning to try yoga but I've never really had the time.",
+        "Yeah, they are. I really love taking him for walks. It's a great way to get some exercise and spend time with my best friend.",
+        "Yeah, it really is. I also like to take him to the park and let him run around. He loves playing fetch."
+      ]
+    },
+    "pet_owner": {
+      "confidence": "high",
+      "hit_count": 1321,
+      "evidence": [
+        "I have a dog and a cat. They are my best friends.",
+        "I'm doing alright. I'm trying to keep up with my studies while also taking care of my dog. It's a lot of work, but I'm managing.",
+        "That's so cool! I also love animals. I have a cat and a dog."
+      ]
+    },
+    "gamer": {
+      "confidence": "high",
+      "hit_count": 964,
+      "evidence": [
+        "I also like to play video games.",
+        "I enjoy making 3d models for video games and animations. I have a nickname that my friends call me.",
+        "I like to make models of characters from video games and movies. I also like to make models of cars. My favorite kind of food is spicy Mexican food."
+      ]
+    },
+    "coffee_drinker": {
+      "confidence": "high",
+      "hit_count": 275,
+      "evidence": [
+        "Not so bad. Just got back from a show with my band. We played in a coffee shop.",
+        "That's really cool! How long have you been working at the coffee shop?",
+        "That's awesome! I love woodworking too. I built a coffee table last year."
+      ]
+    },
+    "early_riser": {
+      "confidence": "high",
+      "hit_count": 60,
+      "evidence": [
+        "I'm actually a morning person! I usually wake up early and go for a run before work.",
+        "Yeah, we're going to go early so we can beat the heat. I'm not a morning person either, but I love hiking too much to miss it!",
+        "I can relate! I'm not a morning person either."
+      ]
+    },
+    "late_sleeper": {
+      "confidence": "high",
+      "hit_count": 30,
+      "evidence": [
+        "Hi! I love horror novels. I can stay up late reading them and it can mess up my sleep schedule.",
+        "Thanks! I just had to stay up late a lot and drink a lot of juice and yogurt.",
+        "That sounds like a lot of fun. I like to stay up late and do work on my laptop."
+      ]
+    }
+  },
+  "personality_traits": {
+    "curious": {
+      "confidence": "high",
+      "hit_count": 8857,
+      "evidence": [
+        "Reading is a great way to relax. I love to cook too! What is your favorite meal to make?",
+        "Oh nice! What are some of your favorite books?",
+        "I'm doing well! What do you do for fun?"
+      ]
+    },
+    "optimistic": {
+      "confidence": "high",
+      "hit_count": 6173,
+      "evidence": [
+        "That's awesome! I love classic cars.",
+        "So, what are you looking forward to the most about your new job?",
+        "That's awesome! I love to play soccer and I usually wake up and play piano before starting my day."
+      ]
+    },
+    "thoughtful": {
+      "confidence": "high",
+      "hit_count": 2065,
+      "evidence": [
+        "I think I will. Thanks for the suggestion.",
+        "Thank you! I think so, too.",
+        "I think the Maldives looks amazing, but it's so expensive."
+      ]
+    },
+    "empathetic": {
+      "confidence": "high",
+      "hit_count": 624,
+      "evidence": [
+        "I'm so sorry to hear that. Dogs are such wonderful companions.",
+        "I understand that. I'm also a single parent, but I'm lucky enough to have a great support system.",
+        "I'm sorry to hear that. My family is everything to me."
+      ]
+    },
+    "ambitious": {
+      "confidence": "high",
+      "hit_count": 469,
+      "evidence": [
+        "I love adrenaline rushes and pushing myself to the limit, I also like to spend time alone to reflect on my life and what I want to achieve.",
+        "I love business. I work as a wedding planner and it's so much fun helping people create their dream weddings.",
+        "That's a great goal! I'm sure you'll be great at it."
+      ]
+    },
+    "humorous": {
+      "confidence": "high",
+      "hit_count": 388,
+      "evidence": [
+        "That's cool! I'm a barista. I love books, and I like to watch funny and lighthearted shows to relax.",
+        "Me too! It's so funny and heartwarming.",
+        "I love to play badminton and watch funny shows. I'm also a student in social sciences and I love to draw comics."
+      ]
+    },
+    "emotional": {
+      "confidence": "high",
+      "hit_count": 268,
+      "evidence": [
+        "Me too! I feel like we have a lot in common.",
+        "I feel the same way. I'm glad we met!",
+        "Me too! I miss fishing."
+      ]
+    },
+    "introverted": {
+      "confidence": "high",
+      "hit_count": 96,
+      "evidence": [
+        "I am a stay at home mom of 3 young kids.",
+        "That's awesome! I'm a stay at home mom, but I used to be a graphic designer.",
+        "That's great! I've always wondered what it's like to be a stay at home mom."
+      ]
+    },
+    "extroverted": {
+      "confidence": "high",
+      "hit_count": 27,
+      "evidence": [
+        "I'm an introvert, but I love being around people. I have a lot of friends, but I'm not very close to them.",
+        "I love meeting new people and making them feel welcome.",
+        "It can be a lot of work, but it's also a lot of fun. I love meeting new people and making their experience at the restaurant great."
+      ]
+    }
+  },
+  "relationships": {
+    "has_parents_in_life": {
+      "confidence": "high",
+      "hit_count": 536,
+      "evidence": [
+        "I'm doing great! I'm a fulltime student studying radiology at a local college and I also play in a band that my parents don't know about.",
+        "My favorite thing to cook is probably my mom's chicken noodle soup. It's so comforting and delicious!",
+        "That's so cool! I wish I could cook like my mom. I'm afraid of being judged for my diet."
+      ]
+    },
+    "has_siblings": {
+      "confidence": "high",
+      "hit_count": 102,
+      "evidence": [
+        "I'm going to visit my brother in another city.",
+        "I'm trying to get my sister to watch my favorite TV show, but she's not interested.",
+        "My brother is the smartest person I know. We have bright red hair and we are both clumsy. Do you have any siblings?"
+      ]
+    },
+    "has_romantic_partner": {
+      "confidence": "high",
+      "hit_count": 299,
+      "evidence": [
+        "Hi! I'm heading home after a long run to see my girlfriend and eat some tacos. What are you up to today?",
+        "That's great. I love to exercise too. I try to eat healthy foods and exercise regularly because I want to get in better shape for my girlfriend and baby.",
+        "I love to go to comic cons and dress up with my husband."
+      ]
+    },
+    "has_kids": {
+      "confidence": "high",
+      "hit_count": 200,
+      "evidence": [
+        "Hello, I am a mother of two beautiful boys and I love to cook healthy meals for my family!",
+        "I'm from New York City, I live in a nice area with my son. I'm a YouTuber who creates content for my audience. I believe in a progressive tax system. I love eating at the local sports bar with my son after his games.",
+        "That's fun! I like to dress up for art events and show my daughter how to have fun with fashion. What kind of work do you do?"
+      ]
+    },
+    "is_single": {
+      "confidence": "high",
+      "hit_count": 32,
+      "evidence": [
+        "It's nice that you worry about your brother. I'm single and enjoy the freedom of being able to focus on my art.",
+        "I'm single but I'm happy with my life, because I have my writing to keep me busy.",
+        "That's a cool name. I like dogs a lot too. I'm single and really enjoy my time fishing and relaxing."
+      ]
+    }
+  },
+  "communication_style": {
+    "avg_message_length_words": 11.1,
+    "style_label": "moderate length",
+    "tone": "enthusiastic and expressive",
+    "emoji_usage": "rare",
+    "emoji_ratio": 0.0,
+    "question_ratio": 0.27,
+    "exclamation_ratio": 0.523
+  },
+  "likely_occupations": [
+    "teacher",
+    "writer",
+    "software engineer",
+    "musician",
+    "nurse"
+  ],
+  "locations_mentioned": [
+    "the midwest",
+    "california",
+    "a small town in the midwest",
+    "a big city",
+    "colorado"
+  ],
+  "total_messages_analysed": 98072
+}
