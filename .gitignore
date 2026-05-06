@@ -1,0 +1,6 @@
+data/faiss_index.pkl
+data/topic_checkpoints.pkl
+data/persona.json
+__pycache__/
+*.pyc
+.env
