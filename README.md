@@ -251,11 +251,4 @@ cat >> README.md << 'EOF'
 - On-device first, derived artefacts sync to cloud
 - Raw conversations never leave device
 
-### Run L2 Demo
-```bash
-streamlit run app_l2.py
-```
-EOF
-git add README.md
-git commit -m "update README with L2 documentation"
-git push
+ 
