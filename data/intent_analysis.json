@@ -1,0 +1,90 @@
+{
+  "messages_classified": 4832,
+  "avg_latency_ms": 0.202,
+  "intent_distribution": {
+    "reminder": 179,
+    "emotional_support": 1028,
+    "action_item": 235,
+    "small_talk": 3030,
+    "unknown": 360
+  },
+  "intent_percentages": {
+    "reminder": 3.7,
+    "emotional_support": 21.3,
+    "action_item": 4.9,
+    "small_talk": 62.7,
+    "unknown": 7.5
+  },
+  "sample_messages_per_intent": {
+    "reminder": [
+      {
+        "message": "It is! And I get to take walks in the canyon before I start my work, which is a nice way to start the day.",
+        "confidence": 0.2603
+      },
+      {
+        "message": "We should get together sometime and do something active!",
+        "confidence": 0.2465
+      },
+      {
+        "message": "Hey, I'm a single mom working two jobs to support my children. What about you?",
+        "confidence": 0.2333
+      }
+    ],
+    "emotional_support": [
+      {
+        "message": "I'm doing great! I'm a fulltime student studying radiology at a local college and I also play in a band that my parents don't know about.",
+        "confidence": 0.386
+      },
+      {
+        "message": "Nice! I've been meaning to try yoga but I've never really had the time.",
+        "confidence": 0.2996
+      },
+      {
+        "message": "I'm doing great! I just got a new teaching job and I'm really excited about it.",
+        "confidence": 0.4403
+      }
+    ],
+    "action_item": [
+      {
+        "message": "Hey there!",
+        "confidence": 0.2682
+      },
+      {
+        "message": "That's a cool hobby. I need to learn to take responsibility for my own actions and stop blaming others.",
+        "confidence": 0.2673
+      },
+      {
+        "message": "I like the band Queens of the Stone Age.",
+        "confidence": 0.3335
+      }
+    ],
+    "small_talk": [
+      {
+        "message": "Hey how are you doing?",
+        "confidence": 0.4841
+      },
+      {
+        "message": "I'll have to try it sometime! What about your Impala?",
+        "confidence": 0.3169
+      },
+      {
+        "message": "That's awesome! I love classic cars.",
+        "confidence": 0.3533
+      }
+    ],
+    "unknown": [
+      {
+        "message": "I'm sure it will be!",
+        "confidence": 0.3938
+      },
+      {
+        "message": "Hello!",
+        "confidence": 0.2734
+      },
+      {
+        "message": "Sounds good",
+        "confidence": 0.2977
+      }
+    ]
+  }
+}

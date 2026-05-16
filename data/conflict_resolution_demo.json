@@ -1,0 +1,57 @@
+{
+  "query": "Did I mention anything about my sister?",
+  "ranked_chunks": [
+    {
+      "score": 0.576,
+      "start_idx": 87100,
+      "end_idx": 87115,
+      "source": "message_chunk",
+      "recency": 0.4546,
+      "emotion": 0.9231,
+      "relevance": 0.4
+    },
+    {
+      "score": 0.5349,
+      "start_idx": 145000,
+      "end_idx": 145020,
+      "source": "message_chunk",
+      "recency": 0.7569,
+      "emotion": 0.6667,
+      "relevance": 0.2
+    },
+    {
+      "score": 0.4526,
+      "start_idx": 45200,
+      "end_idx": 45225,
+      "source": "message_chunk",
+      "recency": 0.2359,
+      "emotion": 1.0,
+      "relevance": 0.2
+    },
+    {
+      "score": 0.3925,
+      "start_idx": 12300,
+      "end_idx": 12318,
+      "source": "message_chunk",
+      "recency": 0.0642,
+      "emotion": 1.0,
+      "relevance": 0.2
+    }
+  ],
+  "contradictions": [
+    {
+      "chunk_a_range": "msgs 87100\u201387115",
+      "chunk_b_range": "msgs 145000\u2013145020",
+      "conflicting_dimensions": 1,
+      "note": "These two chunks appear to express different sentiments about the same subject across 1 dimension(s). The more recent chunk (msgs 145000+) likely reflects the current state."
+    },
+    {
+      "chunk_a_range": "msgs 87100\u201387115",
+      "chunk_b_range": "msgs 45200\u201345225",
+      "conflicting_dimensions": 1,
+      "note": "These two chunks appear to express different sentiments about the same subject across 1 dimension(s). The more recent chunk (msgs 45200+) likely reflects the current state."
+    }
+  ],
+  "merged_answer": "Most relevantly (around message 87100): User 1: I was thinking about my sister today. User 1: Just a random thought, we used to fight a lot as kids. Additionally (around message 145000): User 1: My sister is visiting next month, I'm so excited! User 2: Are you two close? In another instance (around message 45200): User 1: I really miss my sister. We used to be so close.\n\n\u26a0 Note: 2 potential contradiction(s) detected across chunks. The retrieved segments don't all agree \u2014 the most recent mention is likely the most accurate current state.",
+  "resolution_note": "Retrieved 4 chunks. After ranking by recency + emotional weight + relevance, top 4 kept. 2 contradiction(s) detected and flagged. Answer prioritises the most recent, emotionally weighted mention."
+}
