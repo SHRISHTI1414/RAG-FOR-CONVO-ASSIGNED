@@ -220,3 +220,42 @@ Every answer in the UI shows **exactly which topic segments and message ranges**
 - ❌ **LangChain / LlamaIndex** — these are wrappers. The retrieval logic here is written from scratch so the approach is transparent and explainable.
 - ❌ **OpenAI / Anthropic / Gemini** — external LLMs would make the system dependent on an API key and network access.
 - ❌ **ChromaDB / Pinecone / Weaviate** — FAISS runs in-process and is sufficient for this dataset size.
+
+
+cat >> README.md << 'EOF'
+
+---
+
+## L2 — Adaptive Conversation Intelligence
+
+### Part 1: Persona Drift Detector
+- 1100 day profiles built, 1066 drift events detected
+- Sliding window emotional scoring across 8 tone axes
+- Trigger detection: work_stress, relationships, health, etc.
+- Output: `data/drift_report.json`
+
+### Part 2: Intent Classifier
+- Model: TF-IDF + Logistic Regression (char n-grams)
+- Size: 149KB (limit: 50MB)
+- Avg latency: 0.2ms (limit: 200ms)
+- F1 score: 0.766
+- 5 classes: reminder, emotional_support, action_item, small_talk, unknown
+
+### Part 3: Conflict Resolver
+- Ranks chunks by: recency + emotional weight + relevance
+- Detects contradictions using sentiment signature comparison
+- Merges into single coherent answer with contradiction flags
+
+### Part 4: System Design
+- See `SYSTEM_DESIGN.md`
+- On-device first, derived artefacts sync to cloud
+- Raw conversations never leave device
+
+### Run L2 Demo
+```bash
+streamlit run app_l2.py
+```
+EOF
+git add README.md
+git commit -m "update README with L2 documentation"
+git push
